@@ -12,7 +12,7 @@ const Footer = () =>{
                 <input className="focus:outline-none mx-auto px-2 py-3 w-68 rounded-lg mt-2" type="email" placeholder="Enter Your Email Address" />
                 <button className="bg-blue-600 text-white py-3 px-10 rounded-r-lg relative right-1 lg:px-5">Subscribe</button>           
             </div>
-            <div className="w-full hidden mt-5 lg:mt-0 lg:w-1/2  lg:block lg:justify-end">
+            <div className="w-full hidden mt-5 lg:mt-0 lg:w-1/2  lg:flex lg:justify-end">
                 <div>
                     <ul className="inline-flex text-gray-700">
                         <li className="mr-6 hover:text-gray-900"><a href="#">About</a></li>
