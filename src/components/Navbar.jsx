@@ -3,7 +3,7 @@ import {useState} from 'react';
 const Navbar = () =>{
 
     //navbar state
-    const [sidebar ,setSidebar] = useState(true);
+    const [sidebar ,setSidebar] = useState(false);
 
     const sidebarToggler = () => {
         if(sidebar){
